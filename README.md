@@ -1,4 +1,4 @@
-# [Gene-Based IBD Detection]
+# Gene-Based IBD Detection
 Operated Random Forest Classification to predict the three distinct IBS statuses of patients: Ulcerative Colitis, Crohn’s Disease, and Normal
 
 ## Table of Contents
@@ -99,12 +99,17 @@ For the third model, we compared the Normal group with the Crohn’s Disease gro
 I compared the results for each model using the cross-validation accuracy as the evaluation metric. The cross-validation accuracy measures how well the model can generalize to unseen data by using multiple splits of the data and averaging the results.
 
 Model 1: Normal vs Disease. This model achieved a cross-validation accuracy of 89.16%, which means that it correctly predicted the status of 89.16% of the patients in the testing set. This model used all the patients with UC or CD as one group (Disease) and compared them with the patients without any IBS (Normal).
+
 Model 2: Normal vs Ulcerative Colitis. This model achieved a cross-validation accuracy of 89.48%, which is slightly better than model 1. This model used only the patients with UC as one group and compared them with the Normal group. This suggests that the model can distinguish between UC and Normal patients better than between Disease and Normal patients.
+
 Model 3: Normal vs Crohn’s Disease. This model achieved a cross-validation accuracy of 89.92%, which is the best among the three models. This model used only the patients with CD as one group and compared them with the Normal group. This suggests that the model can distinguish between CD and Normal patients better than between UC and Normal patients or between Disease and Normal patients.
+
 Based on these results, I can conclude that the Random Forest Classification algorithm can be used to predict the three different IBS statuses of patients: UC, CD, and Normal. However, since the limitation of random forest is that it might require more trees for the model to be more accurate and precise, I also explored some alternative models to improve the performance.
 
 Model 4: Ulcerative Colitis vs Disease. This model compared the patients with UC with the patients with CD or Normal as one group (Disease). This model achieved a cross-validation accuracy of 91.36%, which is higher than any of the previous models. This suggests that the model can differentiate between UC and non-UC patients very well.
+
 Model 5: Crohn’s Disease vs Disease. This model compared the patients with CD with the patients with UC or Normal as one group (Disease). This model achieved a cross-validation accuracy of 92.24%, which is the highest among all the models. This suggests that the model can differentiate between CD and non-CD patients very well.
+
 By comparing these models, I can see that the models that use only one type of IBS as one group and the rest as another group perform better than the models that use two types of IBS as one group and Normal as another group. This implies that the predictor variables have more discriminative power for distinguishing between different types of IBS than between IBS and non-IBS.
 
 In conclusion, Random Forest Classification has done a great job in predicting three distinct IBS statuses of patients by comparing five models and applying cross-validation to obtain the misclassification error. The accuracy predictions were substantially high for all models, ranging from 89.16% to 92.24%. Simultaneously, this method reduces the capacity of the model and the risk of overfitting.
