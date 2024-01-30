@@ -31,11 +31,12 @@ The structure of the dataset is such that each row corresponds to a probeset, an
 
 The dataset includes the following variables:
 
-Probe.Set.ID: This represents the names of the 309 probesets.
-Group: This categorizes the individuals into one of three groups: Normal, Ulcerative Colitis (UC), or Crohn’s Disease (CD).
-Age: This represents the age of the individuals in years.
-Ethnicity: This represents the national, ethnic, or cultural origins of the individuals.
-Sex: This indicates the sex of the individuals, either male or female.
+- Probe.Set.ID: This represents the names of the 309 probesets.
+- Group: This categorizes the individuals into one of three groups: Normal, Ulcerative Colitis (UC), or Crohn’s Disease (CD).
+- Age: This represents the age of the individuals in years.
+- Ethnicity: This represents the national, ethnic, or cultural origins of the individuals.
+- Sex: This indicates the sex of the individuals, either male or female.
+
 This comprehensive dataset serves as the foundation for the machine learning analysis conducted in this report, with the aim of determining whether gene expression data can identify patients with inflammatory bowel disease. The findings from this study could potentially contribute to the diagnosis and treatment strategies for IBD.
 
 
