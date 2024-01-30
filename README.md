@@ -76,7 +76,7 @@ The main steps of the random forest algorithm are:
 
 Data preprocessing
 
-We imported the raw dataset and performed some preprocessing steps, such as transposing the data and removing unnecessary rows or columns (refer to picture 1). We also factored the predictor variables (the columns of data) and the dependent variable (Groups), which indicates the patients’ status.
+We imported the raw dataset and performed some preprocessing steps, such as transposing the data and removing unnecessary rows or columns. We also factored the predictor variables (the columns of data) and the dependent variable (Groups), which indicates the patients’ status.
 
 **Model 1: Normal vs Disease**
 
