@@ -8,7 +8,7 @@ Operated Random Forest Classification to predict the three distinct IBS statuses
 - [Research Questions](#research-questions)
 - [Methodology](#methodology)
 - [Analysis](#analysis)
-- [Result and discussion](#result-adn-discussion)
+- [Result and discussion](#result-and-discussion)
 - [References](#references)
 
 
