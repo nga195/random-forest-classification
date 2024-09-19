@@ -48,7 +48,7 @@ Data Source: [https://ssc.ca/sites/default/files/case-studies/ssc_case_study_2_i
 
   Clustering is an unsupervised machine learning technique that groups similar instances on the basis of features. In this context, the features are variables, probesets, or genes. The aim is to cluster individuals into three biological groups: healthy individuals, CD patients, and UC patients.
   The hypothesis is that gene expression profiles (the data features) of individuals from these three groups would be significantly different. Therefore, a clustering algorithm could potentially group individuals based on the similarity of their gene expression profiles, effectively distinguishing between healthy individuals, CD patients, and UC patients.
-  Techniques such as K-means clustering, hierarchical clustering, or DBSCAN could be employed. The choice of algorithm would depend on the specific characteristics of the dataset.
+
 
 2. Can data features predict the disease state of individuals from three biological groups?
 
