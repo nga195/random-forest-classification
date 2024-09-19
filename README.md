@@ -69,9 +69,7 @@ The main steps of the random forest algorithm are:
   1. Bootstrap sampling: For each tree in the forest, a random sample of the data is drawn with replacement (meaning that some data points may be repeated and some may be left out). This creates a diverse set of training data for each tree and reduces the correlation among them.
   2. Feature selection: For each split in each tree, a random subset of the features (or variables) is chosen as candidates for the best split. This adds more randomness and variety to the trees and prevents them from relying on the same features.
   3. Tree building: Each tree is grown to its maximum depth without pruning, meaning that each leaf node contains only one data point or a very small number of data points. This allows the trees to capture complex patterns and interactions in the data, but also makes them prone to overfitting.
-  4. Prediction: For a new data point, each tree in the forest makes a prediction based on the values of the features. For classification, the final prediction is the most common class among the trees (also known as majority voting). For regression, the final prediction is the average of the predictions of the trees.
-
-
+  4. Prediction: For a new data point, each tree in the forest makes a prediction based on the values of the features. For classification, the final prediction is the most common class among the trees (also known as majority voting).
 ## Analysis
 
 Data preprocessing
