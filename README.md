@@ -64,7 +64,7 @@ In conclusion, both clustering and predictive modeling techniques can be applied
 
 ## Methodology
 
-Random forest is a machine learning method that combines multiple decision trees to produce a single prediction. It can handle both classification and regression problems, as well as missing values and outliers:
+Random forest is a machine learning method that combines multiple decision trees to produce a single prediction. 
 The main steps of the random forest algorithm are:
   1. Bootstrap sampling: For each tree in the forest, a random sample of the data is drawn with replacement (meaning that some data points may be repeated and some may be left out). This creates a diverse set of training data for each tree and reduces the correlation among them.
   2. Feature selection: For each split in each tree, a random subset of the features (or variables) is chosen as candidates for the best split. This adds more randomness and variety to the trees and prevents them from relying on the same features.
