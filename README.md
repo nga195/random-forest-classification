@@ -72,9 +72,6 @@ The main steps of the random forest algorithm are:
   4. Prediction: For a new data point, each tree in the forest makes a prediction based on the values of the features. For classification, the final prediction is the most common class among the trees (also known as majority voting).
 ## Analysis
 
-Data preprocessing
-
-We imported the raw dataset and performed some preprocessing steps, such as transposing the data and removing unnecessary rows or columns. We also factored the predictor variables (the columns of data) and the dependent variable (Groups), which indicates the patients’ status.
 
 **Model 1: Normal vs Disease**
 
